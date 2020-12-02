@@ -1,6 +1,7 @@
 <div class="mx-5 row d-flex justify-content-center mt-5">
   <div class="frame col-lg-3 col-md-6 m-3" *ngFor="let img of pictures;" data-toggle="modal" data-target="#pictureModal"
-    style="background-image: url({{img.Path}});" alt="img" (click)="select(img)">
+    style="background-image: url({{img.Path}}); border-image: url('../assets/frame.jpg') 40 40 40 50;" alt="img"
+    (click)="select(img)">
   </div>
 </div>
 
