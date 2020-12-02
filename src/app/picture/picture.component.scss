@@ -1,0 +1,18 @@
+.frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-image: url('D:/WEB/Angular&React/Angular-meet9-DZ/AngularDz9/src/assets/frame.jpg') 40 40 40 50;
+  border-color: #f4be52;
+  border-style: inset;
+  border-width: 30px;
+  width: 400px;
+  height: 250px;
+  background-color: purple;
+  box-shadow: inset 0px 0px 100px 20px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.frame:hover{
+  transform: scale(1.05);
+  transition: .1s;
+}
