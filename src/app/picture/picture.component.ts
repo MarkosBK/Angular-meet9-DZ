@@ -11,8 +11,14 @@ export class PictureComponent implements OnInit {
 
   constructor(private pictureService:PictureService) { }
   pictures:Picture[];
+  selectedPicture:Picture;
   ngOnInit(): void {
     this.pictures=this.pictureService.getData();
+    this.selectedPicture=this.pictures[0];
+  }
+
+  select(picture){
+    this.selectedPicture=picture;
   }
 
 }
